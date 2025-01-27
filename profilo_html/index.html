@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css ">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>G</span>andham <span>L</span>okesh</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">    
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Lokesh <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Sk<span>i</span>lls</h1>
+        <p>I am passionate about web development and have created and deployed several projects. My skills include CSS for styling, React for building user interfaces, Bootstrap for responsive design, and JavaScript for functionality. Additionally, I utilize MongoDB for database management and Node.js for backend development.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSoW3g9hjXIasgon-kpzz-lD9z4SsalyPbZA&s" /></div>
+          <h2>React JS</h2>
+          <p>React.js is a powerful JavaScript library used for building dynamic and interactive user interfaces, primarily for single-page applications. It enables developers to create reusable UI components, improving development efficiency and performance.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://hopetutors.com/wp-content/uploads/2017/03/nodejs-logo-1.png" /></div>
+          <h2>Node js</h2>
+          <p>Node.js is a powerful JavaScript runtime for building scalable server-side applications. It enables developers to use JavaScript for backend development, handling multiple connections efficiently with its non-blocking, event-driven architecture.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59m3YRaOrM0AN8pdjaAVxR1SEpPaHBVWa1w&s" /></div>
+          <h2>Java SCript</h2>
+          <p>JavaScript is a versatile programming language used to create interactive and dynamic web content. It enables developers to implement complex features on web pages, such as real-time updates, animations, and form validations.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/jpeg;base64,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" /></div>
+          <h2>MongoDB</h2>
+          <p>MongoDB is a NoSQL database designed for scalability and flexibility, storing data in JSON-like documents. It supports powerful querying and indexing, making it ideal for handling large volumes of unstructured data and enabling rapid development iterations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Basic E-commerce</h2>
+            <p>I have developed a basic eCommerce application using ReactJS, Node.js, CSS, MongoDB, and JavaScript. The application includes essential pages such as home, login, register, and about. After logging in, users can access features like viewing products, managing their cart, and editing their user information, providing a seamless shopping experience.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/basic-emcommerce.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Movies Web</h2>
+            <p>The Movies Web Application offers a sleek, user-friendly platform for discovering and exploring a wide range of movies. It provides an intuitive interface that allows users to easily search, browse, 
+              and view detailed information about movies, including ratings, reviews, and trailers. With its responsive design, the app ensures a smooth and enjoyable movie discovery experience on any device.
+               Whether you're looking for trending films or exploring specific genres, the application is designed to enhance your movie-watching journey.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/movie-web.png" width="100px" alt="img">
+          </div>
+        </div>
+        
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Game</h2>
+            <p>The Tic Tac Toe web application is an interactive game developed using ReactJS, CSS, and Bootstrap. Players take turns marking "X" and "O" on a 3x3 grid, with the game checking for winning conditions (horizontal, vertical, or diagonal lines of the same symbol). The app displays an alert when a player wins or when the game ends in a draw. A reset button allows users to start a new game, and the design is responsive, ensuring a seamless experience across devices.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/Tic_pic.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>To Do List</h2>
+            <p>
+              This To-Do website is built using React JS for the frontend, styled with CSS and Bootstrap for a responsive and clean design.
+               The backend is powered by Node.js and Express.js, with MongoDB as the database for efficient task management. Add, edit, or delete 
+               tasks effortlessly and keep track of your to-do list with this streamlined application.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/ToDo_pic.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>EduConnect</h2>
+            <p>EduConnect is a web platform designed to simplify the process of finding relevant 
+              study materials for college students. It offers curated educational content organized by college, branch, year, subject, and topic,
+               ensuring that students can easily access resources tailored to their needs.</p>
+          </div>
+          <div class="project-img">
+            <img src="./assets/educonnect-1.png" class="picc" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img  src="./assets/her.png.jpg" alt="img" class="about-hero-img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Full Stack Developer</h2>
+        <p>I am a Front-End Developer and a MERN stack student with 
+          hands-on experience building several projects. My expertise 
+          includes working with technologies like HTML, CSS, React.js, Bootstrap, Tailwind CSS, JavaScript, Node.js, Express, and MongoDB. I am passionate about creating dynamic, responsive, and user-friendly web applications while continuously learning and improving my skills.</p>
+        <a href="./assets/Lokesh_resume.pdf" class="cta" download="Lokesh_resume.pdf">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2><a href="tel:+919014457103" style="color: brown">+91 90144 57103</a></h2>
+            <h2><a href="tel:+919014457103" style="color: brown">+91 76759 54669</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2><a href="mailto:gandhamlokesh5@gmail.com" style="color: brown">gandhamlokesh5@gmail.com</a></h2>
+            <h2><a href="mailto:developer.lokesh5@gmail.com" style="color: brown">developer.lokesh5@gmail.com@gmail.com</a></h2>
+
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2><a href="https://www.google.com/maps?q=16.498552, 80.692008" target="_blank" style="color: brown">Kanuru,Vijayawada,Andhra Pradesh-520007,India</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>G</span>andham <span>L</span>okesh</h1>
+      </div>
+      <h2></h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://m.facebook.com/profile.php?id=100060184524229&name=xhp_nt__fb__action__open_user" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/lokesh._.gandham/?next=%2F" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/loki-4445" target="_blank"><img src="./assets/github-logo.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://wa.me/919014457103" target="_blank "><img src="./assets/whatsapp.png" style="max-width: 50px;"/></a>
+        </div>
+        
+      </div>
+      <p>Copyright © 2024 Lokesh. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
